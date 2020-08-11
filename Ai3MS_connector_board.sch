@@ -159,10 +159,6 @@ Wire Wire Line
 Wire Wire Line
 	3200 4500 3350 4500
 Wire Wire Line
-	2150 4400 2250 4400
-Text GLabel 2150 4400 0    50   Input ~ 0
-P5
-Wire Wire Line
 	3200 4600 3250 4600
 Text GLabel 2650 4600 0    50   Input ~ 0
 T0_P1
@@ -174,122 +170,6 @@ Text GLabel 3550 3700 2    50   Input ~ 0
 FAN2_P1
 Text GLabel 2550 4200 0    50   Input ~ 0
 HOTEND1_P1
-Wire Wire Line
-	6200 4200 6150 4200
-$Comp
-L Device:R_Small R1
-U 1 1 5F124A70
-P 6350 4000
-F 0 "R1" V 6550 3950 50  0001 L CNN
-F 1 "15K" V 6450 3900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 4000 50  0001 C CNN
-F 3 "~" H 6350 4000 50  0001 C CNN
-	1    6350 4000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6150 4000 6250 4000
-Text GLabel 7350 4000 2    50   Input ~ 0
-P5
-$Comp
-L Device:R_Small R2
-U 1 1 5F12F25C
-P 6600 4200
-F 0 "R2" H 6659 4246 50  0001 L CNN
-F 1 "10K" H 6659 4155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 4200 50  0001 C CNN
-F 3 "~" H 6600 4200 50  0001 C CNN
-	1    6600 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5F12F262
-P 6950 4200
-F 0 "C2" H 7042 4246 50  0001 L CNN
-F 1 "100NF" H 7042 4155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 4200 50  0001 C CNN
-F 3 "~" H 6950 4200 50  0001 C CNN
-	1    6950 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6950 4300 6950 4400
-Wire Wire Line
-	6600 4100 6600 4000
-Wire Wire Line
-	6600 4300 6600 4400
-Connection ~ 6600 4000
-Connection ~ 6600 4400
-Wire Wire Line
-	6950 4000 6950 4100
-Wire Wire Line
-	6950 4000 7350 4000
-$Comp
-L Switch:SW_SPDT SWITCH1
-U 1 1 5F11AF04
-P 5950 4100
-F 0 "SWITCH1" H 5950 4293 50  0000 C CNN
-F 1 "SW_SPDT" H 5950 4294 50  0001 C CNN
-F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 5950 4100 50  0001 C CNN
-F 3 "~" H 5950 4100 50  0001 C CNN
-	1    5950 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 4200 6200 4400
-Text GLabel 5550 3850 0    50   Input ~ 0
-FAN0_P1
-Text GLabel 5450 4000 0    50   Input ~ 0
-FAN2_P1
-Wire Wire Line
-	5200 4350 5200 4400
-Wire Wire Line
-	5200 4400 6200 4400
-Text GLabel 7300 4400 2    50   Input ~ 0
-T0_P2
-Wire Wire Line
-	6950 4400 7300 4400
-Wire Wire Line
-	5550 3850 5650 3850
-Wire Wire Line
-	5450 4000 5550 4000
-Wire Wire Line
-	5550 4000 5550 4100
-Wire Wire Line
-	5550 4100 5650 4100
-Wire Wire Line
-	5650 3850 5650 4100
-Wire Wire Line
-	5650 4100 5750 4100
-Connection ~ 5650 4100
-$Comp
-L Device:C_Small C1
-U 1 1 5F11BFAD
-P 5200 4250
-F 0 "C1" H 5000 4300 50  0001 L CNN
-F 1 "1uF" H 4950 4250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5200 4250 50  0001 C CNN
-F 3 "~" H 5200 4250 50  0001 C CNN
-	1    5200 4250
-	1    0    0    -1  
-$EndComp
-Connection ~ 5550 4100
-Wire Wire Line
-	5200 4100 5200 4150
-Wire Wire Line
-	5200 4100 5550 4100
-Wire Wire Line
-	6600 4000 6950 4000
-Connection ~ 6950 4000
-Wire Wire Line
-	6450 4000 6600 4000
-Wire Wire Line
-	6200 4400 6600 4400
-Connection ~ 6200 4400
-Wire Wire Line
-	6600 4400 6950 4400
-Connection ~ 6950 4400
 Connection ~ 3350 4500
 Wire Wire Line
 	3200 4200 3350 4200
@@ -330,15 +210,8 @@ Wire Wire Line
 	3450 4500 3550 4500
 Text GLabel 3550 4650 2    50   Input ~ 0
 BLTOUCH1_BLUE
-Text GLabel 2150 4550 0    50   Input ~ 0
+Text GLabel 2700 4400 0    50   Input ~ 0
 BLTOUCH1_WHITE
-Wire Wire Line
-	2150 4550 2250 4550
-Wire Wire Line
-	2250 4550 2250 4400
-Connection ~ 2250 4400
-Wire Wire Line
-	2250 4400 2900 4400
 Text GLabel 6725 2300 0    50   Input ~ 0
 BLTOUCH1_BLUE
 Wire Wire Line
@@ -400,4 +273,13 @@ F 3 "" H 4850 2500 50  0001 C CNN
 	1    4850 2450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3550 3550 3450 3550
+Text GLabel 3550 3550 2    50   Input ~ 0
+FAN0_P1
+Wire Wire Line
+	3450 3550 3450 3700
+Connection ~ 3450 3700
+Wire Wire Line
+	2900 4400 2700 4400
 $EndSCHEMATC
