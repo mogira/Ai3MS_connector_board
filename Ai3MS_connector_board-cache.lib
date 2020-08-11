@@ -68,6 +68,70 @@ X Pin_2 2 -100 -50 50 R 24 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# mogira_1x3_rev
+#
+DEF mogira_1x3_rev J 0 40 Y Y 1 F N
+F0 "J" 0 50 50 H V C CNN
+F1 "mogira_1x3_rev" 0 -50 25 H V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+S -50 150 50 -150 0 1 0 N
+X Pin_1 1 100 100 50 L 25 0 1 1 P
+X Pin_2 2 100 0 50 L 24 0 1 1 P
+X Pin_3 3 100 -100 50 L 25 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mogira_1x4
+#
+DEF mogira_1x4 J 0 40 Y Y 1 F N
+F0 "J" 0 50 50 H V C CNN
+F1 "mogira_1x4" 0 -50 25 H V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+S -50 200 50 -200 0 1 0 N
+X Pin_1 1 -100 150 50 R 25 0 1 1 P
+X Pin_2 2 -100 50 50 R 24 0 1 1 P
+X Pin_3 3 -100 -50 50 R 25 0 1 1 P
+X Pin_4 4 -100 -150 50 R 25 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mogira_1x4_rev
+#
+DEF mogira_1x4_rev J 0 40 Y Y 1 F N
+F0 "J" 0 50 50 H V C CNN
+F1 "mogira_1x4_rev" 0 -50 25 H V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+S -50 200 50 -200 0 1 0 N
+X Pin_1 1 100 150 50 L 25 0 1 1 P
+X Pin_2 2 100 50 50 L 25 0 1 1 P
+X Pin_3 3 100 -50 50 L 24 0 1 1 P
+X Pin_4 4 100 -150 50 L 25 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mogira_1x5
+#
+DEF mogira_1x5 J 0 40 Y Y 1 F N
+F0 "J" 0 50 50 H V C CNN
+F1 "mogira_1x5" 0 -50 25 H V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+S -50 250 50 -250 0 1 0 N
+X Pin_1 1 -100 200 50 R 25 0 1 1 P
+X Pin_2 2 -100 100 50 R 24 0 1 1 P
+X Pin_3 3 -100 0 50 R 25 0 1 1 P
+X Pin_4 4 -100 -100 50 R 25 0 1 1 P
+X Pin_5 5 -100 -200 50 R 25 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # mogira_2x7
 #
 DEF mogira_2x7 J 0 40 Y Y 1 F N
