@@ -17,6 +17,10 @@ The board accepts BLTouch, Extruder Motor and the extension cords to these from 
 
 <br />
 
+## [>> CADLAB.io](https://cadlab.io/node/23246/)
+
+<br />
+
 ## [>> Circuit Board Gallery](docs/circuit_board_gallery.md)
 
 <br />
