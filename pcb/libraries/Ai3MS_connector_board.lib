@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Ai3MS_connector_board_1x2
+# 1x2
 #
-DEF Ai3MS_connector_board_1x2 J 0 40 Y Y 1 F N
+DEF 1x2 J 0 40 Y Y 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "Ai3MS_connector_board_1x2" 0 -50 25 H V C CNN
+F1 "1x2" 0 -50 25 H V C CNN
 F2 "" 0 150 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 DRAW
@@ -15,11 +15,11 @@ X Pin_2 2 -100 -50 50 R 24 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ai3MS_connector_board_1x3_rev
+# 1x3_rev
 #
-DEF Ai3MS_connector_board_1x3_rev J 0 40 Y Y 1 F N
+DEF 1x3_rev J 0 40 Y Y 1 F N
 F0 "J" 0 50 50 H V C CNN
-F1 "Ai3MS_connector_board_1x3_rev" 0 -50 25 H V C CNN
+F1 "1x3_rev" 0 -50 25 H V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -30,11 +30,11 @@ X Pin_3 3 100 -100 50 L 25 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ai3MS_connector_board_1x4
+# 1x4
 #
-DEF Ai3MS_connector_board_1x4 J 0 40 Y Y 1 F N
+DEF 1x4 J 0 40 Y Y 1 F N
 F0 "J" 0 50 50 H V C CNN
-F1 "Ai3MS_connector_board_1x4" 0 -50 25 H V C CNN
+F1 "1x4" 0 -50 25 H V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X Pin_4 4 -100 -150 50 R 25 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ai3MS_connector_board_1x4_rev
+# 1x4_rev
 #
-DEF Ai3MS_connector_board_1x4_rev J 0 40 Y Y 1 F N
+DEF 1x4_rev J 0 40 Y Y 1 F N
 F0 "J" 0 50 50 H V C CNN
-F1 "Ai3MS_connector_board_1x4_rev" 0 -50 25 H V C CNN
+F1 "1x4_rev" 0 -50 25 H V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -62,11 +62,11 @@ X Pin_4 4 100 -150 50 L 25 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ai3MS_connector_board_1x5
+# 1x5
 #
-DEF Ai3MS_connector_board_1x5 J 0 40 Y Y 1 F N
+DEF 1x5 J 0 40 Y Y 1 F N
 F0 "J" 0 50 50 H V C CNN
-F1 "Ai3MS_connector_board_1x5" 0 -50 25 H V C CNN
+F1 "1x5" 0 -50 25 H V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -79,11 +79,11 @@ X Pin_5 5 -100 -200 50 R 25 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ai3MS_connector_board_2x7
+# 2x7
 #
-DEF Ai3MS_connector_board_2x7 J 0 40 Y Y 1 F N
+DEF 2x7 J 0 40 Y Y 1 F N
 F0 "J" 0 0 50 H V C CNN
-F1 "Ai3MS_connector_board_2x7" 0 -100 25 H V C CNN
+F1 "2x7" 0 -100 25 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW

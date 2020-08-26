@@ -19,7 +19,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 4850 3350 4850
 $Comp
-L mogira:1x2 FAN2
+L Ai3MS_connector_board:1x2 FAN2
 U 1 1 5F10A633
 P 2600 2850
 F 0 "FAN2" H 2678 2850 50  0000 L CNN
@@ -30,7 +30,7 @@ F 3 "" H 2600 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mogira:1x2 FAN0
+L Ai3MS_connector_board:1x2 FAN0
 U 1 1 5F10AA55
 P 2600 2300
 F 0 "FAN0" H 2678 2300 50  0000 L CNN
@@ -73,7 +73,7 @@ Wire Wire Line
 Text GLabel 3600 2250 0    50   Input ~ 0
 T0_P1
 $Comp
-L mogira:1x2 T0
+L Ai3MS_connector_board:1x2 T0
 U 1 1 5F10AE6F
 P 3800 2300
 F 0 "T0" H 3878 2300 50  0000 L CNN
@@ -131,12 +131,12 @@ Wire Wire Line
 	2650 4200 2900 4200
 Connection ~ 2650 4200
 $Comp
-L mogira:2x7 J1
+L Ai3MS_connector_board:2x7 J1
 U 1 1 5F1093E7
 P 3050 4300
 F 0 "J1" H 3050 4400 50  0000 C CNN
 F 1 "2x7" H 3050 4250 25  0000 C CNN
-F 2 "mogira:PHLike_Green_Connector" H 3050 4250 50  0001 C CNN
+F 2 "Ai3MS_connector_board:PHLike_Green_Connector" H 3050 4250 50  0001 C CNN
 F 3 "" H 3050 4250 50  0001 C CNN
 	1    3050 4300
 	1    0    0    -1  
@@ -180,7 +180,7 @@ Wire Wire Line
 Text GLabel 3550 4500 2    50   Input ~ 0
 T0_P2
 $Comp
-L mogira:1x2 HOTEND1
+L Ai3MS_connector_board:1x2 HOTEND1
 U 1 1 5F109B81
 P 3800 2850
 F 0 "HOTEND1" H 3878 2850 50  0000 L CNN
@@ -191,7 +191,7 @@ F 3 "" H 3800 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mogira:1x4_rev J2
+L Ai3MS_connector_board:1x4_rev J2
 U 1 1 5F1321D5
 P 4400 2450
 F 0 "J2" H 4400 2200 50  0000 C CNN
@@ -227,7 +227,7 @@ BLTOUCH1_RED
 Text Label 6100 2750 0    50   ~ 0
 BLTOUCH1_BROWN
 $Comp
-L mogira:1x5 BLTOUCH1
+L Ai3MS_connector_board:1x5 BLTOUCH1
 U 1 1 5F179B7D
 P 7050 2650
 F 0 "BLTOUCH1" H 7128 2650 50  0000 L CNN
@@ -238,7 +238,7 @@ F 3 "" H 7050 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mogira:1x3_rev J3
+L Ai3MS_connector_board:1x3_rev J3
 U 1 1 5F1884C2
 P 5850 2750
 F 0 "J3" H 5850 2550 50  0000 C CNN
@@ -263,7 +263,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 2300 4750 2300
 $Comp
-L mogira:1x4 EXTRUDER1
+L Ai3MS_connector_board:1x4 EXTRUDER1
 U 1 1 5F12BC10
 P 4850 2450
 F 0 "EXTRUDER1" H 4928 2450 50  0000 L CNN

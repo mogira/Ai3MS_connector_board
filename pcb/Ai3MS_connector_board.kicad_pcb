@@ -333,7 +333,7 @@
     )
   )
 
-  (module mogira:AXA-15-M3 (layer B.Cu) (tedit 5F237D0F) (tstamp 5F238D5C)
+  (module Ai3MS_connector_board:AXA-15-M3 (layer B.Cu) (tedit 5F237D0F) (tstamp 5F238D5C)
     (at 174.63 117.285)
     (fp_text reference REF** (at 0 -2.53) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -350,7 +350,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 1.6) (layers *.Cu *.Mask))
   )
 
-  (module mogira:AXA-15-M3 (layer B.Cu) (tedit 5F237D0F) (tstamp 5F2380F4)
+  (module Ai3MS_connector_board:AXA-15-M3 (layer B.Cu) (tedit 5F237D0F) (tstamp 5F2380F4)
     (at 138.78 117.285)
     (fp_text reference REF** (at 0 -2.53) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -609,7 +609,7 @@
     )
   )
 
-  (module mogira:PHLike_Green_Connector (layer F.Cu) (tedit 5F13F00C) (tstamp 5F1459B6)
+  (module Ai3MS_connector_board:PHLike_Green_Connector (layer F.Cu) (tedit 5F13F00C) (tstamp 5F1459B6)
     (at 153.63 109.76 270)
     (descr "2mm pitch green connector used in Anycubic i3 Mega")
     (path /5F1093E7)

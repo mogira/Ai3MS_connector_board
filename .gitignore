@@ -1,3 +1,7 @@
 pcb/*.zip
 pcb/*.bak
+pcb/libraries/*.bak
+pcb/libraries/*.bck
+pcb/*.net
 pcb/*.kicad_pcb-bak
+pcb/fp-info-cache
