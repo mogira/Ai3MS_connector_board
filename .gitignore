@@ -5,3 +5,5 @@ pcb/libraries/*.bck
 pcb/*.net
 pcb/*.kicad_pcb-bak
 pcb/fp-info-cache
+pcb/*-rescue.dcm
+pcb/*-rescue.lib

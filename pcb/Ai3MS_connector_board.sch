@@ -171,7 +171,7 @@ U 1 1 5F1093E7
 P 2800 3800
 F 0 "J1" H 2800 3900 50  0000 C CNN
 F 1 "2x7" H 2800 3750 25  0000 C CNN
-F 2 "Ai3MS_connector_board:PHLike_Green_Connector" H 2800 3750 50  0001 C CNN
+F 2 "Ai3MS_connector_board:2x7_2mm-pitch_Lock_GreenConnector" H 2800 3750 50  0001 C CNN
 F 3 "" H 2800 3750 50  0001 C CNN
 	1    2800 3800
 	1    0    0    -1  
