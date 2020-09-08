@@ -753,7 +753,7 @@
   (gr_text @mogira_jubeat (at 139.105 108.835) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.14)))
   )
-  (gr_text "ANYCUBIC i3 Mega\nConnector Board\nfor Direct Extruder\nwith BLTouch\nver 1.0.0" (at 173.24 110.79) (layer F.SilkS)
+  (gr_text "ANYCUBIC i3 Mega S\nConnector Board\nfor Direct Extruder\nwith BLTouch\nver 1.0.1" (at 173.24 110.79) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.14)))
   )
   (gr_line (start 180.23 107.66) (end 180.23 125.07) (layer Edge.Cuts) (width 0.05))
