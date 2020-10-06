@@ -1,8 +1,3 @@
-> # :warning:CAUTION: DO NOT USE THIS VERSION!!
-> v1.0.0 board needs to expand the screw holes of it. But that causes short-circuiting.
-
-<br />
-
 # Cuircuit Board Gallery
 
 | | Front | Back |

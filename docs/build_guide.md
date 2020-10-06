@@ -1,8 +1,3 @@
-> # :warning:CAUTION: DO NOT USE THIS VERSION!!
-> v1.0.0 board needs to expand the screw holes of it. But that causes short-circuiting.
-
-<br />
-
 # Build Guide
 ## Parts List
 | Name | Quantity | Remark |
@@ -30,7 +25,7 @@ And you need a crimp tool. I recommend "ENGINEER PA-09" to crimp XH and PH conne
 <br />
 
 ## Notes
-* Silks are changed from original as below:
+* Silks are changed from the stock board as below:
     * T0 -> Thermistor
     * FAN0 -> PartsFan
     * FAN2 -> HotEndFan
@@ -46,15 +41,9 @@ About the other connectors, do as you like.
 <br />
 
 ### 2. Expand the holes with drill
-#### **PCB**
-~~In v1.0.0, the board has wrong size of AXA-15-M3's hole, so you need to expand the two holes of these.~~  
-**THIS IS VERY BAD PRACTICE. DO NOT IMITATE ME.**  
-![expand_holes_on_the_board.jpg](images/expand_holes_on_the_board.jpg)
-
-#### **AXA-15-M3 (if need)**
+#### **AXA-15-M3 (recommend)**
 If you substitute AXA-15-M3 for AXA-15-M3-3.2, it is better to expand the screw hole on the extruder side of it to 3.2mm (M3 Clearance hole size).  
-![expand_holes_of_AXA-15-M3.jpg](images/expand_holes_of_AXA-15-M3.jpg)  
-\* This is the wrong size hole. It is 3.5mm in the picture, but the correct size is 3.2mm.
+![expand_holes_of_AXA-15-M3.jpg](images/expand_holes_of_AXA-15-M3.jpg)
 
 <br />
 
@@ -80,7 +69,5 @@ You should crimp the following connectors:
 
 ### 5. Assemble
 ![assemble_1.jpg](images/assemble_1.jpg)
-
-![assemble_2.jpg](images/assemble_2.jpg)
 
 ![assembled.jpg](images/assembled.jpg)

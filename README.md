@@ -1,8 +1,3 @@
-> # :warning:CAUTION: DO NOT USE THIS VERSION!!
-> v1.0.0 board needs to expand the screw holes of it. But that causes short-circuiting.
-
-<br />
-
 # Anycubic i3 Mega S Connector Board
 ## Overview
 This is the project to create the connector board for ["MONOBLOCK" ANYUCBIC I3 MEGA-S Direct Extruder MOD add BLTouch by Toshi_Yamamoto](https://www.thingiverse.com/thing:4035830).  
